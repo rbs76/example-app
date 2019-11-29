@@ -6,7 +6,7 @@ node {
        }
 
        stage('Build image') {
-               app = docker.build('rbs76/example-app')
+               app = docker.build('rolanddocker/example-app')
        }
 
        stage('Push image') {
